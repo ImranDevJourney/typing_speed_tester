@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <class>ResultsWindow</class>
+ <widget class="QDialog" name="ResultsWindow">
+  <property name="windowTitle">
+   <string>Results</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="resultsLabel">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Your results will appear here.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="closeButton">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

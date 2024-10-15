@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Typing Speed Tester</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="textToType">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="inputField">
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="startButton">
+      <property name="text">
+       <string>Start Test</string>
+      </property>
+      <property name="styleSheet">
+       <string>background-color: lightgray; color: black;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="submitButton">
+      <property name="text">
+       <string>Submit</string>
+      </property>
+      <property name="styleSheet">
+       <string>background-color: lightgray; color: black;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="resultLabel">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+
+  <!-- Menu Bar -->
+  <menubar class="QMenuBar" name="menubar">
+   <!-- Add the action to the menu bar -->
+   <menu name="menuSettings">
+    <property name="title">
+     <string>Settings</string> <!-- Title for the settings menu -->
+    </property>
+    <addaction name="actionSettings"/>
+   </menu>
+  </menubar>
+
+  <!-- Actions -->
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string> <!-- Text for the settings action -->
+   </property>
+  </action>
+
+  <!-- Status Bar -->
+  <statusbar class="QStatusBar" name="statusbar"/>
+ </widget>
+
+</ui>

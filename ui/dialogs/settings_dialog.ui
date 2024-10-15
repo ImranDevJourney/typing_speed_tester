@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <class>SettingsDialog</class>
+ <widget class="QDialog" name="SettingsDialog">
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <!-- Font Size Selection -->
+   <item>
+    <widget class="QLabel" name="fontSizeLabel">
+     <property name="text">
+      <string>Select Font Size:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="fontSizeComboBox">
+     <item>
+      <property name="text">
+       <string>Small</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Medium</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Large</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+
+   <!-- Difficulty Level Selection -->
+   <item>
+    <widget class="QLabel" name="difficultyLabel">
+     <property name="text">
+      <string>Select Difficulty Level:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="difficultyComboBox">
+     <item>
+      <property name="text">
+       <string>Easy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Medium</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hard</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+
+   <!-- Save and Cancel Buttons -->
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item stretch="0">
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item stretch="0">
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+  </layout>
+
+  <!-- Menu Bar -->
+  <menubar name="menubar"/>
+  <!-- Status Bar -->
+  <statusbar name="statusbar"/>
+ </widget>
+
+</ui>
